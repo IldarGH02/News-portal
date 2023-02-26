@@ -1,0 +1,27 @@
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 45px 0;
+    margin-bottom: 90px;
+
+    .title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    nav {
+        a {
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: none;
+            color: #333D51;
+            &:not(:last-child) {
+                margin-right: 35px;
+            }
+            &.linkActive {
+                color: #004FEC;
+            }
+        }
+    }
+}
